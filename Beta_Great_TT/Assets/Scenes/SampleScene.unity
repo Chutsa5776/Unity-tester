@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 178633898}
   - component: {fileID: 178633900}
   - component: {fileID: 178633901}
+  - component: {fileID: 178633902}
   m_Layer: 0
   m_Name: Zorrito_Player
   m_TagString: Untagged
@@ -284,6 +285,27 @@ CapsuleCollider2D:
   m_Offset: {x: -0.009746303, y: -0.044334922}
   m_Size: {x: 0.15271163, y: 0.22587176}
   m_Direction: 0
+--- !u!95 &178633902
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178633895}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8da0fa971a3a7d54ebb41cd26327fb0d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &333988911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,19 +3366,20 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -5.2842836, y: 3.6579955}
-  - {x: -1.3178375, y: 3.6599727}
-  - {x: -0.32009643, y: 2.6946378}
-  - {x: 0.6095458, y: 2.691828}
-  - {x: 1.6279427, y: 1.6801047}
-  - {x: 6.69432, y: 1.6939151}
-  - {x: 8.663348, y: 3.6861575}
-  - {x: 14.67387, y: 3.6816852}
-  - {x: 17.636097, y: 0.74905455}
-  - {x: 19.556078, y: 1.6728692}
-  - {x: 20.795303, y: 1.668978}
-  - {x: 22.698229, y: 0.69403017}
-  - {x: 25.598112, y: 0.66841817}
+  - {x: -5.3406644, y: 3.6504781}
+  - {x: -1.3571281, y: 3.6499586}
+  - {x: -0.3864617, y: 2.6400478}
+  - {x: 0.63979137, y: 2.6397343}
+  - {x: 1.6257697, y: 1.641196}
+  - {x: 6.732586, y: 1.645899}
+  - {x: 8.704197, y: 3.6376092}
+  - {x: 14.608357, y: 3.6446564}
+  - {x: 17.513618, y: 0.7120255}
+  - {x: 17.819675, y: 0.7139033}
+  - {x: 19.556078, y: 1.647234}
+  - {x: 20.763971, y: 1.6461911}
+  - {x: 22.6612, y: 0.6456076}
+  - {x: 25.60381, y: 0.65417624}
   - {x: 25.601385, y: 0.5975354}
   - {x: 25.663212, y: 0.59976494}
   - {x: 25.661102, y: 0.2832012}
