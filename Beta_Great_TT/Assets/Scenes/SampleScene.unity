@@ -223,6 +223,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4facdc35a86f9b4dbc680505d52dafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: 0
+  rb: {fileID: 178633900}
+  groundCheck: {fileID: 415082312}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!50 &178633900
 Rigidbody2D:
   serializedVersion: 4
@@ -238,7 +244,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -259,7 +265,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 178633895}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8c3a2463415fbb24e8fcd02fd7e37362, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -411,7 +417,7 @@ GameObject:
   - component: {fileID: 415082316}
   - component: {fileID: 415082315}
   - component: {fileID: 415082318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3264,9 +3270,9 @@ EdgeCollider2D:
   - {x: 27.61612, y: -0.89749}
   - {x: 27.607935, y: 0.20685345}
   - {x: 26.930489, y: 0.18421045}
-  - {x: 26.681585, y: 0.22266594}
-  - {x: 26.69511, y: 0.6040473}
-  - {x: 26.696686, y: 0.6713946}
+  - {x: 26.676975, y: 0.22266594}
+  - {x: 26.676674, y: 0.6040473}
+  - {x: 26.675945, y: 0.6760037}
   - {x: 29.667517, y: 0.678887}
   - {x: 30.687634, y: 1.6768932}
   - {x: 38.679657, y: 1.6936707}
@@ -3318,10 +3324,10 @@ EdgeCollider2D:
   - {x: 2.6865563, y: 4.2346344}
   - {x: 2.69694, y: 4.603917}
   - {x: 2.1660075, y: 4.622071}
-  - {x: 1.6673548, y: 5.012744}
+  - {x: 1.6572108, y: 5.010715}
   - {x: 1.6499332, y: 5.674234}
   - {x: 7.6742516, y: 5.6767974}
-  - {x: 7.709297, y: 5.036823}
+  - {x: 7.662635, y: 5.022621}
   - {x: 7.1831617, y: 4.592435}
   - {x: 6.647682, y: 4.616349}
   - {x: 6.653267, y: 4.1744018}
@@ -3380,7 +3386,7 @@ EdgeCollider2D:
   - {x: 20.763971, y: 1.6461911}
   - {x: 22.6612, y: 0.6456076}
   - {x: 25.60381, y: 0.65417624}
-  - {x: 25.601385, y: 0.5975354}
+  - {x: 25.663607, y: 0.6528435}
   - {x: 25.663212, y: 0.59976494}
   - {x: 25.661102, y: 0.2832012}
   - {x: 25.599768, y: 0.28380802}
