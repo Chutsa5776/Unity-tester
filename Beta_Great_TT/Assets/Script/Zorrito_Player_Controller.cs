@@ -40,6 +40,8 @@ public class Controller : MonoBehaviour
         {
             rb.AddForce(new Vector2(rb.velocity.x, jump));
             isjumping = true;
+
+            animator.SetBool("IsJumping", true);
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f )
@@ -61,6 +63,11 @@ public class Controller : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+    }
+
+    public void Onlanding()
+    {
+        animator.SetBool("IsJumping", false);
     }
 
     void OnCollisionEnter2D(Collision2D other)
